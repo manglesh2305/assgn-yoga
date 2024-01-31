@@ -108,7 +108,7 @@ const Container = styled.div`
   width: 100%;
 }
 .left > h3{
-  margin-top: -6rem;
+  margin-top: -2rem;
   font-family: cursive;
   color: rgb(215, 86, 108);
 }
@@ -162,7 +162,7 @@ const Container = styled.div`
   color: green;
 }
 .package-right{
-  margin-left: 3rem;
+  margin-right: 2rem;
    display: flex; 
   flex-direction: column;
   justify-content: center;

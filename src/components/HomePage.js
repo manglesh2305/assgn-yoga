@@ -11,53 +11,51 @@ import styled from "styled-components";
 const HomePage = () => {
   return (
     <Container>
-    <div className="container">
-      <div className="section-1">
-        <div className="left">
-          <h2>Yoga for Mind</h2>
-          <p>
-            Watch Our Lead Yoga Thrapist. <u>Ms Uma Subramaniam </u>explain
-            Yoga for Mind
-          </p>
+      <div className="container">
+        <div className="section-1">
+          <div className="left">
+            <h2>Yoga for Mind</h2>
+            <p>
+              Watch Our Lead Yoga Thrapist. <u>Ms Uma Subramaniam </u>explain
+              Yoga for Mind
+            </p>
+          </div>
+          <div className="right">
+            <img
+              src={rightCornerImage}
+              alt="Right Corner Image"
+              className="right-corner-image"
+            />
+          </div>
         </div>
-        <div className="right">
-          <img
-            src={rightCornerImage}
-            alt="Right Corner Image"
-            className="right-corner-image"
-          />
+        <div class="section-2">
+          <h3>is this for you?</h3>
+          <div className="cards">
+            <div>
+              <div id='icon'><FaPersonFalling className="icon" /></div>
+              <span>Hard to feel calm or sleep because of stress</span>
+              <button>Book trial @99</button>
+            </div>
+            <div>
+              <div id='icon'><FaHeartPulse className="icon" /></div>
+              <span>Hard to feel calm or sleep because of stress</span>
+              <button>Book trial @99</button>
+            </div>
+            <div>
+              <div id='icon'><BiRun className="icon" /><RxCross2 className="icon" /></div>
+              <span>You have been advised by doctors to avoid physical activity</span>
+              <Link
+                id='link'
+                to="/"
+
+              >
+                i have a question
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="section-2">
-        <h3>is this for you?</h3>
-        <div className="cards">
-          <div>
-            <div id='icon'><FaPersonFalling className="icon" /></div>
-            <span>Hard to feel calm or sleep because of stress</span>
-            <button>Book trial @99</button>
-          </div>
-          <div>
-            <div id='icon'><FaHeartPulse className="icon" /></div>
-            <span>Hard to feel calm or sleep because of stress</span>
-            <button>Book trial @99</button>
-          </div>
-          <div>
-            <div id='icon'><BiRun className="icon" /><RxCross2 className="icon" /></div>
-            <span>You have been advised by doctors to avoid physical activity</span>
-            <Link
-              id='link'
-              to="https://github.com/Niraj-parihar/yoga-mind-repo"
-              onClick={() => {
-                alert("Redirecting to github");
-              }}
-            >
-              i have a question
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-</Container>
+    </Container>
   );
 };
 

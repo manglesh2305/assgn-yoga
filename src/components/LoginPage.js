@@ -58,10 +58,8 @@ const LoginPage = () => {
                 I agree with the{" "}
                 <Link
                   id='link'
-                  to="https://github.com/Niraj-parihar/yoga-mind-repo"
-                  onClick={() => {
-                    alert("Redirecting to github");
-                  }}
+                  to="/login"
+                  
                 >
                   Terms & Condtions & Privacy policy
                 </Link>{" "}
