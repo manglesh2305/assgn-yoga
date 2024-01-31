@@ -1,0 +1,41 @@
+body{
+  overflow: hidden;
+}
+.header > h2{
+  font-family: cursive;
+  color: palevioletred;
+}
+
+.header > img {
+  width: 100vw;
+  height: 35vh;
+  object-fit: cover;
+}
+
+.header > *{
+  margin: 1rem;
+}
+.header > h3{
+  font-family: cursive;
+  color: palevioletred;
+}
+.header > p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.package > *{
+  margin: 1rem;
+}
+.package > h3 {
+  color: gray;
+  font-family: cursive;
+}
+.package > p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.package > p > b{
+  color: palevioletred;
+}
+.package > h4 {
+  color: green;
+}
